@@ -1,0 +1,179 @@
+img
+{
+border-radius:8px;
+}
+
+body
+{
+background-color:#057A97;
+margin-top:0;
+margin-left:0;
+margin-right:0;
+}
+
+
+#headers
+{
+	width:100%;
+	height:50px;
+	margin-bottom:20%;
+	position:fixed;
+	background-color:#057A97;
+}
+#header1
+{
+	width:20%;
+	height:100%;
+	float:left;
+	font-family:courier;
+	font-size:200%;
+	text-align:center;
+	padding-top:0.5%;
+}
+#header2
+{
+	width:20%;
+	height:100%;
+	float:left;
+	font-family:courier;
+	font-size:200%;
+	text-align:center;
+	padding-top:0.5%;
+}
+#header3
+{
+	width:20%;
+	height:100%;
+	float:left;
+	font-family:courier;
+	font-size:200%;
+	text-align:center;
+	
+}
+#header4
+{
+	width:20%;
+	height:100%;
+	float:left;
+	font-family:courier;
+	font-size:200%;
+	text-align:center;
+	padding-top:0.5%;
+}
+#header5
+{
+	width:20%;
+	height:100%;
+	float:right;
+	font-family:courier;
+	font-size:200%;
+	text-align:center;
+	padding-top:0.5%;
+}
+#map{
+	display:block;
+	margin: 0 auto;
+	width:600px;
+	margin-bottom:5px;
+	padding-top:3%;
+	height:250px;
+	border-radius:8px;
+}
+#formdiv
+{
+	width:100%;
+	height:188px;
+}
+#formrowdiv
+{
+	height:100%;
+	width:960px;
+	margin:0 auto;
+}
+
+#formone{
+	float:left;
+	height:100%;
+	width:33.3333333333%;
+	text-align:center;
+	font-size:100%;
+	font-family:helvetica;
+	color:white;
+}
+#formtwo{
+	float:left;
+	height:100%;
+	width:33.3333333333%;
+	text-align:center;
+	font-size:100%;
+	font-family:helvetica;
+	color:white;
+}
+#formthree{
+	float:right;
+	height:100%;
+	width:33.3333333333%;
+	text-align:center;
+	font-size:100%;
+	font-family:helvetica;
+	color:white;
+}
+
+input[type=text], select, textarea {
+  width: 80%; 
+  padding: 4px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  }
+
+input[type=submit] {
+  background-color: white;
+  color: #057A97;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: red;
+  color:white;
+}
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-left:21.75%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+a:link{color:white; text-decoration:none}
+a:visited{color:white; text-decoration:none}
+a:hover{color:red; text-decoration:underline}
+a:active{color:red; text-decoration:underline}

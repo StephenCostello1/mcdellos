@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+	<link rel="stylesheet" href="contactus.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="icon1.png">
+	
+</head>
+<body>
+<div id="headers">
+	<div id="header1"><a href="aboutus.html">About Us</a>
+	</div>
+	<div id="header2"><a href="menu.html">Menu</a>
+	</div>
+	<div id="header3"><a href="index.html"><img src="logo3.png"/></a>
+	</div>
+	<div id="header4"><a href="bookatable.html">Book A Table</a>
+	</div>
+	<div id="header5"><a href="contactus.html">Contact Us</a>
+	</div>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<center>
+<div id="map"></div>
+<script>
+function initMap() {
+  var uluru = {lat: 53.487954, lng: -10.022124};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+</script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt2dGgLAJezoWZNhBgBfKzar_IlZ1lTmA&callback=initMap">
+    </script>
+	</center>
+
+ <div id="formdiv">
+	<div id="formrowdiv">
+		<div id="formone">
+			<h3>MCDELLO'S</h3>
+			You can book a table via our website or by telephone, if you wish to book a party or have any other queries, please send us an email or fill out the contact form.
+		
+		</div>
+		<div id="formtwo"><h3>ADDRESS & PHONE</h3>McDello's</br>Seaview Road</br>Clifden</br>Co. Galway</br></br>e-mail: mcdellos@gmail.com</br>phone: (021) 960 415</div>
+		
+		
+		<div id="formthree"><h3>CONTACT FORM</h3>
+			
+		<form action="contactus.html">
+		<label for="fname"></label>
+		<input type="text" id="name" name="name" placeholder="Your name...">
+		<label for="lname"></label>
+		<input type="text" id="email" name="email" placeholder="Your e-mail...">
+		<label for="subject"></label>
+		<textarea id="subject" name="message" placeholder="Write message here..." style="height:50px"></textarea>
+		<br>
+		<input type="submit" value="Submit"></form>
+		
+		</div>
+	</div>
+</div>
+<br>
+
+
+
+
+		<a href="www.facebook.com" class="fa fa-facebook"></a>
+		<a href="www.twitter.com" class="fa fa-twitter"></a>
+		<a href="www.instagram.com" class="fa fa-instagram"></a>
+</body>
+
+</html>
